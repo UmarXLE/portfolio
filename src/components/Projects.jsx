@@ -9,7 +9,7 @@ import {data_projects} from '../data/db'
 const Projects = () => {
     return (
         <WrapperMain>
-            <h1 className='title'>Projects</h1>
+            <h1 className='title_projects'>Projects</h1>
             <WrapperContent>
                 {
                     data_projects?.map(card => (
@@ -27,7 +27,7 @@ const WrapperMain = styled('section')`
   margin: 0 auto;
   padding-bottom: 50px;
 
-  .title {
+  .title_projects {
     font-size: 20px;
     margin-bottom: 30px;
     animation:flash; /* referring directly to the animation's @keyframe declaration */
@@ -35,7 +35,7 @@ const WrapperMain = styled('section')`
   }
   
   @media screen and (max-width: 576px){
-    width: 90%;
+    width: 95%;
   }
 `
 

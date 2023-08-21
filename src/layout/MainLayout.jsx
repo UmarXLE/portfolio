@@ -23,6 +23,7 @@ const WrapperMain = styled('main')`
   
   .content {
     max-width: 1500px;
+    overflow-x: hidden;
   }
 `
 

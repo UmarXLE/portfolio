@@ -5,6 +5,7 @@ import Intro from "../components/Intro";
 import Information from "../components/Information";
 import Projects from "../components/Projects";
 import About from "../components/About";
+import Form from "../components/Form";
 
 
 const HomePage = () => {
@@ -14,6 +15,7 @@ const HomePage = () => {
             <Information/>
             <Projects/>
             <About/>
+            <Form/>
         </WrapperMain>
     );
 };

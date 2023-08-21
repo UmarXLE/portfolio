@@ -43,20 +43,20 @@ const WrapperContent = styled('div')`
    }
    
    .animate-1{
-      animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
-      animation-duration: 11s;
+      animation: slideInLeft; /* referring directly to the animation's @keyframe declaration */
+      animation-duration: 12s;
    }
    .animate-2{
-      animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
-      animation-duration: 11s;
+      animation: slideInRight; /* referring directly to the animation's @keyframe declaration */
+      animation-duration: 12.5s;
    }
    .animate-3{
-      animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
-      animation-duration: 11s;
+      animation: slideInLeft; /* referring directly to the animation's @keyframe declaration */
+      animation-duration: 13s;
    }
    .animate-4{
-      animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
-      animation-duration: 11s;
+      animation: slideInRight; /* referring directly to the animation's @keyframe declaration */
+      animation-duration: 13.5s;
    }
    
    

@@ -10,7 +10,7 @@ import InformationBlog from "./InformationBlog";
 const Information = () => {
     return (
         <WrapperMain>
-            <h1 className='title'>Information</h1>
+            <h1 className='title_info'>Information</h1>
             <WrapperContent>
                 <WrapperImages>
                     <img src={informationImg} alt=""/>
@@ -27,7 +27,7 @@ const WrapperMain = styled('section')`
   width: 80%;
   margin: 0 auto;
   padding-bottom: 50px;
-  .title {
+  .title_info {
      font-size: 20px;
      margin-bottom: 30px;
      animation:flash; /* referring directly to the animation's @keyframe declaration */
@@ -51,7 +51,7 @@ const WrapperContent = styled('div')`
 
 const WrapperImages = styled('div')`
   width: 47%;
-   animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+   animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 5s; /* don't forget to set a duration! */
   img {
     max-width: 100%;
@@ -68,7 +68,7 @@ const WrapperImages = styled('div')`
 
 const WrapperText = styled('div')`
   width: 50%;
-  animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+  animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 6s; /* don't forget to set a duration! */
   
   @media screen and (max-width: 1350px){
