@@ -30,7 +30,7 @@ const WrapperMain = styled('section')`
   .title_projects {
     font-size: 20px;
     margin-bottom: 30px;
-    animation:flash; /* referring directly to the animation's @keyframe declaration */
+    animation:fadeInUp; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 4s;
   }
   

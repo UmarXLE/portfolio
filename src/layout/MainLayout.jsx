@@ -20,10 +20,12 @@ const WrapperMain = styled('main')`
   max-width: 1500px;
   height: 100%;
   background: black;
+  margin: 0 auto;
   
   .content {
     max-width: 1500px;
     overflow-x: hidden;
+    
   }
 `
 
