@@ -65,10 +65,11 @@ const WrapperMain = styled('section')`
     justify-content: start;
     .content {
       .name {
-        font-size: 28px;
+        font-size: 24px;
       }
       .prof{
         margin-top: 5px;
+        font-size: 12px;
       }
     }
    }
